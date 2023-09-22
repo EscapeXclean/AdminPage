@@ -1,0 +1,138 @@
+#loginPage {
+    font-family: 'Roboto Slab', sans-serif;
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the div horizontally */
+    padding: 20px;
+    background-color:rgba(57, 57, 57, 0.9);
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    color: white;
+}
+
+#loginPage h2 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loginbutton {
+    background-color: #3697f1; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginbutton:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+
+.feedback-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 98%;
+}
+h1{
+    font-family: 'Roboto Slab', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 4vh;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.feedback-entry {
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; 
+    cursor: pointer;
+    background-color: rgba(57, 57, 57, 0.9);
+}
+
+.feedback-entry:hover {
+    background-color: rgba(99, 99, 103, 0.9);
+}
+
+.expanded-container {
+    position:relative;
+    font-family: 'Roboto Slab', sans-serif;
+    color: rgb(221, 221, 221);
+    padding: 14px;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: rgba(34, 34, 34, 0.9);
+   
+}
+.expanded-container img{
+
+    max-width: 20%;
+    height: auto;
+    border: 1px solid #ffffff;
+    margin:5px;
+    border-radius: 4px;
+}
+@media (max-width: 600px) {
+    .expanded-container {
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 16px;
+        margin: 5px; 
+    }
+
+    .expanded-container img {
+        max-width: 50%; 
+    }
+}
+.expanded-container button {
+    font-family: 'Roboto Slab', sans-serif;
+    display: block; 
+    margin-top: 10px;
+}
+
+Button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: rgb(81, 121, 214);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  Button:hover{
+    background-color: rgb(33, 70, 156);
+  }
+  
